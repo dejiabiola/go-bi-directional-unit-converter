@@ -79,7 +79,6 @@ func (cvr Converter) PoundToKilogram(p Pound) Kilogram {
 func main() {
 	// Create instance of struct and store it in variable cvr
 	cvr := Converter{}
-
 	fmt.Println(cvr.CentimeterToFeet(10))
 	fmt.Println(cvr.DegreeToRadian(1))
 }
